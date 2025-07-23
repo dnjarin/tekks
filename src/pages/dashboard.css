@@ -1,0 +1,46 @@
+.dashboard-container {
+  max-width: 1000px;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.dashboard-card {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.3s ease;
+  border-radius: 0.8rem;
+  background: var(--card-bg);
+  border: 1px solid var(--primary-color);
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(74, 111, 165, 0.08);
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background: var(--primary-color);
+}
+
+.logout-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--error-color);
+  color: #fff;
+  border: none;
+}
+
+.logout-button:hover {
+  background: #c0392b;
+}
